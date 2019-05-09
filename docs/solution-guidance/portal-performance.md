@@ -256,7 +256,7 @@ In general, use SharePoint REST APIs for client-side data requests. When perform
 
 - Often multiple controls on a page will require data from a single source. If not properly planned, this can result in multiple similar service calls. Ensuring that the data retrieved by one control is available to others (where appropriate) can eliminate unnecessary round trips.
 
-#### Request only what is requried
+#### Request only what is required
 
 - The SharePoint client library allows a developer to specify the fields needed for their application and return only this data. This reduces costs at all layers.
 
